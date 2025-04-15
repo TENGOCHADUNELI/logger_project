@@ -29,7 +29,7 @@ int main() {
 
         loginUser(logger, "admin");
         calculateSum(logger, 10, 20);
-        loginUser(logger, ""); // Triggers ERROR
+        loginUser(logger, ""); 
 
         logger.log(INFO, "Application ended normally.");
     } catch (const exception& ex) {
